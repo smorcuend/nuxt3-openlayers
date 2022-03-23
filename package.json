@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs",
+    "generate": "export NITRO_PRESET=browser; npm run build"
+  },
+  "devDependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.19.0",
+    "firebase-functions-test": "^0.3.3",
+    "nuxt3": "v3.0.0-27465767.70f067a"
+  },
+  "dependencies": {
+    "ol": "^6.13.0",
+    "vue3-openlayers": "^0.1.63"
+  }
+}
